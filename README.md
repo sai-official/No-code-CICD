@@ -1,8 +1,8 @@
 # CI/CD Pipeline Builder
 
 A modern, interactive visual pipeline builder for creating and managing CI/CD pipelines. Built with React and featuring a drag-and-drop interface, real-time execution simulation, and CloudFormation template generation.
-
-![Pipeline Builder Screenshot](https://via.placeholder.com/800x400/2563EB/FFFFFF?text=CI/CD+Pipeline+Builder)
+<p align="center">
+<img src="./Image.png" alt="" width="300"> </p>
 
 ## 🚀 Features
 
@@ -313,30 +313,6 @@ The application is a static React app and can be deployed to:
 ### Environment Variables
 No environment variables required for basic functionality.
 
-## 🧪 Testing
-
-### Running Tests
-```bash
-npm test
-# or
-yarn test
-```
-
-### Test Structure
-```
-src/
-├── __tests__/
-│   ├── CICDPipelineBuilder.test.jsx
-│   ├── pipeline-helpers.test.js
-│   └── integration.test.jsx
-└── components/
-```
-
-### Testing Guidelines
-- Component rendering tests
-- User interaction testing
-- Pipeline execution simulation
-- Export functionality validation
 
 ## 📈 Performance Considerations
 
